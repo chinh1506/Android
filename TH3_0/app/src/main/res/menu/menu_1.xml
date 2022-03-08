@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Xem danh sach sinh vien"
+        android:id="@+id/mnSinhVien" />
+    <item android:title="Xem danh sach lop">
+        <menu>
+
+            <item
+                android:id="@+id/mnA"
+                android:title="DHKTPM15A" />
+            <item
+                android:id="@+id/mnB"
+                android:title="DHKTPM15B" />
+        </menu>
+
+    </item>
+
+</menu>

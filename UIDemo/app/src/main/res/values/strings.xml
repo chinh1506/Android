@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">UIDemo</string>
+    <string-array name="phong_ban">
+        <item>Phong ke toan</item>
+        <item>Phong tiep thi</item>
+        <item>Phong Ky thuat</item>
+        <item>Phong quan he doanh nghiep</item>
+        <item>Phong quan tri</item>
+
+    </string-array>
+</resources>

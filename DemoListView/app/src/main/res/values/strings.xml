@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DemoListView</string>
+    <string-array name="dsTraiCay">
+        <item>Mít</item>
+        <item>Xoài</item>
+        <item>Thanh long</item>
+        <item>Sầu riêng</item>
+        <item>Dưa hấu</item>
+        <item>Dừa</item>
+        <item>Bơ</item>
+
+    </string-array>
+</resources>

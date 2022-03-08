@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cac kieu lap trinh su kien"
+        android:background="@color/teal_200"
+        android:gravity="center"/>
+    <LinearLayout
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="So A"
+            android:textSize="25sp"/>
+        <EditText
+            android:id="@+id/edtA"
+            android:layout_weight="7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="So A"
+            android:textSize="25sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="So B"
+            android:textSize="25sp"/>
+        <EditText
+            android:id="@+id/edtB"
+            android:layout_weight="7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="So B"
+            android:textSize="25sp"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tvKq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cac kieu lap trinh su kien"
+        android:background="@color/teal_200"
+        android:gravity="center"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/btnTong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tong"
+        android:backgroundTint="#5c5c3d"
+        android:gravity="center"
+        android:textSize="25sp"/>
+    <Button
+        android:id="@+id/btnHieu"
+        android:backgroundTint="#5c5c3d"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hieu"
+
+        android:gravity="center"
+        android:textSize="25sp"/>
+    <Button
+        android:id="@+id/btnTich"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tich"
+        android:backgroundTint="#5c5c3d"
+        android:gravity="center"
+        android:textSize="25sp"/>
+    <Button
+        android:id="@+id/btnThuong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thuong"
+        android:backgroundTint="#5c5c3d"
+        android:gravity="center"
+        android:textSize="25sp"/>
+    <Button
+        android:id="@+id/btnUcln"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UCLN"
+        android:backgroundTint="#5c5c3d"
+        android:gravity="center"
+        android:textSize="25sp"/>
+    <Button
+        android:id="@+id/btnThoat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thoat"
+        android:gravity="center"
+        android:textColor="#F44336"
+        android:backgroundTint="#5c5c3d"
+        android:textSize="25sp" />
+</LinearLayout>

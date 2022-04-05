@@ -2,6 +2,8 @@ package com.example.uidemo;
 
 import android.net.Uri;
 
+import java.util.Objects;
+
 public class NhanVien {
     private int ma;
     private String hoTen;
@@ -11,12 +13,7 @@ public class NhanVien {
 
     @Override
     public String toString() {
-        return "NhanVien{" +
-                "ma=" + ma +
-                ", hoTen='" + hoTen + '\'' +
-                ", gioiTinh=" + gioiTinh +
-                ", donVi='" + donVi + '\'' +
-                '}';
+        return ma+","+hoTen+","+gioiTinh+","+donVi+","+hinh.toString()+";";
     }
 
     public NhanVien() {
@@ -38,7 +35,18 @@ public class NhanVien {
         this.hinh=hinh;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof NhanVien)) return false;
+        NhanVien nhanVien = (NhanVien) o;
+        return getMa() == nhanVien.getMa();
+    }
 
+    @Override
+    public int hashCode() {
+        return Objects.hash(getMa());
+    }
 
     public int getMa() {
         return ma;

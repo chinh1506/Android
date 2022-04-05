@@ -23,6 +23,8 @@ public class NhanVienAdapter extends BaseAdapter {
         this.layout = layout;
     }
 
+
+
     @Override
     public int getCount() {
         return dsNhanVien.size();
@@ -69,7 +71,7 @@ public class NhanVienAdapter extends BaseAdapter {
         holder.tvDv.setText(nhanVien.getDonVi().toString());
         holder.tvMa.setText(nhanVien.getMa()+"");
         holder.tvTen.setText(nhanVien.getHoTen().toString());
-        holder.tvGt.setText(nhanVien.isGioiTinh() ? "Nam" : "Nu");
+        holder.tvGt.setText((nhanVien.isGioiTinh() ? "Nam" : "Nu"));
         holder.imvHinh.setImageURI(nhanVien.getHinh());
         return view;
     }

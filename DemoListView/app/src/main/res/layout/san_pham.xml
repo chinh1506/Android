@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/custom_item_list">
+
+    <ImageView
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        android:id="@+id/imvHinhsp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/tvTen"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:text="Tên sản phẩm"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <RatingBar
+        android:layout_margin="5dp"
+        android:layout_marginTop="5dp"
+        style="@style/RatingBar"
+        android:progressTint="@color/duskYellow"
+        android:layout_width="80dp"
+
+        android:layout_height="wrap_content"
+        android:rating="4" />
+    <TextView
+        android:layout_margin="5dp"
+        android:id="@+id/tvGia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Giá'"
+        android:textColor="#F44336"
+        android:textSize="20sp" />
+</LinearLayout>

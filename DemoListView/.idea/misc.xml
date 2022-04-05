@@ -3,8 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/workspace/Android/DemoListView/app/src/main/res/drawable/border_radius.xml" value="0.14739583333333334" />
+        <entry key="..\:/workspace/Android/DemoListView/app/src/main/res/drawable/custom_item_list.xml" value="0.2703125" />
+        <entry key="..\:/workspace/Android/DemoListView/app/src/main/res/drawable/custom_thong_tin_san_pham.xml" value="0.2703125" />
+        <entry key="..\:/workspace/Android/DemoListView/app/src/main/res/drawable/listview_custom.xml" value="0.25416666666666665" />
+        <entry key="..\:/workspace/Android/DemoListView/app/src/main/res/layout-land/activity_main.xml" value="0.2453125" />
+        <entry key="..\:/workspace/Android/DemoListView/app/src/main/res/layout/activity_1.xml" value="0.28603859250851305" />
         <entry key="..\:/workspace/Android/DemoListView/app/src/main/res/layout/activity_main.xml" value="0.24010416666666667" />
         <entry key="..\:/workspace/Android/DemoListView/app/src/main/res/layout/dong_list.xml" value="0.2015625" />
+        <entry key="..\:/workspace/Android/DemoListView/app/src/main/res/layout/fragment_1.xml" value="0.23802083333333332" />
+        <entry key="..\:/workspace/Android/DemoListView/app/src/main/res/layout/fragment_2.xml" value="0.25416666666666665" />
+        <entry key="..\:/workspace/Android/DemoListView/app/src/main/res/layout/san_pham.xml" value="0.25" />
+        <entry key="..\:/workspace/Android/DemoListView/app/src/main/res/layout/san_pham_list.xml" value="0.3255208333333333" />
       </map>
     </option>
   </component>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:weightSum="10"
+    android:background="#FFF9F9">
+
+    <fragment
+        android:layout_weight="4"
+        android:id="@+id/fragment1"
+        android:name="com.example.demolistview.Fragment1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        tools:layout="@layout/san_pham_list"/>
+
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="com.example.demolistview.Fragment2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="5dp"
+        android:layout_weight="6"
+        tools:layout="@layout/fragment_2" />
+</LinearLayout>

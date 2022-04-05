@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="xem danh sách">
+        <menu>
+            <item android:id="@+id/mnDssv" android:title="Sinh viên"/>
+            <item android:id="@+id/mnDslh" android:title="Lớp học"/>
+        </menu>
+
+    </item>
+    <item android:id="@+id/mnSua" android:title="Sửa danh sách"/>
+    <item android:id="@+id/mnXoa" android:title="Xóa danh sách"/>
+    <item android:id="@+id/mnIn" android:title="In danh sách"/>
+</menu>

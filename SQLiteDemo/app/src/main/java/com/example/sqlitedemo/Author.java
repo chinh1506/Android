@@ -1,10 +1,25 @@
 package com.example.sqlitedemo;
 
+import java.util.Objects;
+
 public class Author {
     private int id;
     private String name;
     private String address;
     private String email;
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Author)) return false;
+        Author author = (Author) o;
+        return getId() == author.getId();
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getId());
+    }
 
     public Author(int id, String name, String address, String email) {
         this.id = id;
